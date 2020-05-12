@@ -7,6 +7,7 @@ using Game.Engine.Items.ItemFactories;
 using Game.Engine.Items.BasicArmor;
 using Game.Engine.Interactions;
 using Game.Engine.Interactions.InteractionFactories;
+using Game.Engine.Items.FrostSet;
 
 namespace Game.Engine
 {
@@ -15,7 +16,8 @@ namespace Game.Engine
     {
         private static List<SkillFactory> magicSkillFactories = new List<SkillFactory>()
         {
-            new BasicSpellFactory()
+            new BasicSpellFactory(),
+            new ElementalSpellFactory()
         };
 
         private static List<SkillFactory> weaponSkillFactories = new List<SkillFactory>()
@@ -32,17 +34,24 @@ namespace Game.Engine
             new SteelArmor(),
             new AntiMagicArmor(),
             new BerserkerArmor(),
-            new GrowingStoneArmor()
+            new GrowingStoneArmor(),
+            new RustyFrozenSpear(),
+            new FrostArmor(),
+            new FrostyStarWand(),
+            new OldBook()
         };
 
         private static List<ItemFactory> itemFactories = new List<ItemFactory>()
         {
-            new BasicArmorFactory()
+            new BasicArmorFactory(),
+            new FrostSetFactory()
         };
 
         private static List<MonsterFactory> monsterFactories = new List<MonsterFactory>()
         {
-            new Monsters.MonsterFactories.RatFactory()
+            new Monsters.MonsterFactories.RatFactory(),
+            new Monsters.MonsterFactories.ArcaneFactory(),
+            new Monsters.MonsterFactories.FireDrakesFactory()
         };
 
         private static List<InteractionFactory> interactionFactories = new List<InteractionFactory>()

@@ -8,6 +8,7 @@ using Game.Engine.Skills.BasicWeaponMoves;
 using Game.Engine.Skills.BasicSkills;
 using System.Windows.Documents;
 using System.Windows.Controls;
+using Game.Engine.Skills.ElementalSpells;
 
 namespace Game.Engine
 {
@@ -100,6 +101,15 @@ namespace Game.Engine
                 {
                     ProduceItem("item0001");
                     currentPlayer.Learn(new WindGust());
+                    
+                    ProduceItem("item1700");
+                    ProduceItem("item1701");
+                    ProduceItem("item1702");
+                    ProduceItem("item1703");
+                    currentPlayer.Learn(new EarthShield());
+                    currentPlayer.Learn(new Blizzard());
+                    currentPlayer.Learn(new LightningChain());
+                    
                 }
             }      
         }

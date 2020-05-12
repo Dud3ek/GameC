@@ -14,7 +14,6 @@ namespace Game.Engine.Skills.SkillFactories
         {
             List<Skill> playerSkills = player.ListOfSkills;
             List<Skill> tmp = new List<Skill>();
-            List<Skill> drawn = new List<Skill>();
             SpearStab s1 = new SpearStab();
             SwordSlash s2 = new SwordSlash();
             AxeCut s3 = new AxeCut();

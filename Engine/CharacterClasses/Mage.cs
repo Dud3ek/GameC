@@ -12,7 +12,7 @@ namespace Game.Engine.CharacterClasses
         {
             // initial class statistics
             ClassName = "Mage";
-            Health = 100;
+            Health = 1000;
             Strength = 20;
             Armor = 0;
             Precision = 50;
