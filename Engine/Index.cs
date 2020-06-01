@@ -56,9 +56,11 @@ namespace Game.Engine
 
         private static List<InteractionFactory> interactionFactories = new List<InteractionFactory>()
         {
-            //new SkillForgetFactory(),
-            //new GymirHymirFactory(),
-            new MDFactory()
+            new SkillForgetFactory(),
+            new GymirHymirFactory(),
+            new CaveFactory(),
+            new SmugglerFactory(),
+            new ArenaFactory()
         };
 
     }

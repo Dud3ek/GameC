@@ -116,6 +116,9 @@
     <Compile Include="Engine\GameSessionPublicLogic.cs" />
     <Compile Include="Engine\DisplayItem.cs" />
     <Compile Include="Engine\IndexLogic.cs" />
+    <Compile Include="Engine\Interactions\InteractionFactories\ArenaFactory.cs" />
+    <Compile Include="Engine\Interactions\InteractionFactories\SmugglerFactory.cs" />
+    <Compile Include="Engine\Interactions\MyInteractions\EarthCave.cs" />
     <Compile Include="Engine\Interactions\Built-In\GymirEncounter.cs" />
     <Compile Include="Engine\Interactions\Built-In\HymirEncounter.cs" />
     <Compile Include="Engine\Interactions\Built-In\HymirFriendlyStrategy.cs" />
@@ -127,12 +130,14 @@
     <Compile Include="Engine\Interactions\ImageInteraction.cs" />
     <Compile Include="Engine\Interactions\Interaction.cs" />
     <Compile Include="Engine\Interactions\InteractionFactories\GymirHymirFactory.cs" />
-    <Compile Include="Engine\Interactions\InteractionFactories\MDFactory.cs" />
+    <Compile Include="Engine\Interactions\InteractionFactories\CaveFactory.cs" />
     <Compile Include="Engine\Interactions\InteractionFactories\InteractionFactory.cs" />
     <Compile Include="Engine\Interactions\Built-In\ShopInteraction.cs" />
     <Compile Include="Engine\Interactions\InteractionFactories\SkillForgetFactory.cs" />
     <Compile Include="Engine\Interactions\ListBoxInteraction.cs" />
     <Compile Include="Engine\Interactions\MyInteractions\BoulderEncounter.cs" />
+    <Compile Include="Engine\Interactions\MyInteractions\FireCave.cs" />
+    <Compile Include="Engine\Interactions\MyInteractions\FrostCave.cs" />
     <Compile Include="Engine\Interactions\MyInteractions\HintEncounter.cs" />
     <Compile Include="Engine\Interactions\MyInteractions\WizardEncounter.cs" />
     <Compile Include="Engine\Items\Axe.cs" />
@@ -307,6 +312,10 @@
   <ItemGroup>
     <Resource Include="Display\Assets\interaction1701.png" />
     <Resource Include="Display\Assets\interaction1702.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Display\Assets\interaction1703.png" />
+    <Resource Include="Display\Assets\interaction1704.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

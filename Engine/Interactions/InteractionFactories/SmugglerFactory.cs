@@ -8,14 +8,12 @@ using System.Threading.Tasks;
 namespace Game.Engine.Interactions.InteractionFactories
 {
     [Serializable]
-    class MDFactory : InteractionFactory
+    class SmugglerFactory : InteractionFactory
     {
         public List<Interaction> CreateInteractionsGroup(GameSession ses)
         {
-            WizardEncounter wizard = new WizardEncounter(ses);
-            BoulderEncounter bld = new BoulderEncounter(ses);
-            HintEncounter hint = new HintEncounter(ses);
-            return new List<Interaction>() { hint, bld, wizard };
+            WizardEncounter wiz = new WizardEncounter(ses);
+            return new List<Interaction>() { wiz };
         }
     }
 }
