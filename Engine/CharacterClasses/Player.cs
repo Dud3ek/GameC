@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Windows;
 using Game.Display;
 using Game.Engine.Skills;
@@ -13,7 +14,7 @@ namespace Game.Engine.CharacterClasses
         public List<Skill> ListOfSkills { get; set; }
         protected GameSession parentSession;
         protected int xp, gold;
-
+        
         // public properties
         public override int Health 
         {

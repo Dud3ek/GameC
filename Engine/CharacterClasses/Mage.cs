@@ -16,10 +16,10 @@ namespace Game.Engine.CharacterClasses
             Strength = 20;
             Armor = 0;
             Precision = 50;
-            MagicPower = 50;
+            MagicPower = 500;
             Stamina = 100;
             Level = 1;
-            Gold = 0;
+            Gold = 1100;
         }
 
         protected override void LevelUp()
