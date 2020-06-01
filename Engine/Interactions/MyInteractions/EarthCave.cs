@@ -24,6 +24,10 @@ namespace Game.Engine.Interactions.MyInteractions
             {
                 parentSession.SendText("Treasure already found");
             }
+            else if (hint.failedCounter >= 2)
+            {
+                parentSession.SendText("Caves are closed now, u failed to obtain a treasure");
+            }
             else
             {
                 CheckKnown();

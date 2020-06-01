@@ -14,8 +14,8 @@ namespace Game.Engine.Interactions.MyInteractions
     class HintEncounter
     {
         // event about collecting 3 hints in cave to discover item
-        //private int fight = 0;
-        //private Monster cavePhoenix;
+        // private int fight = 0;
+        // private Monster cavePhoenix;
         public int earthHint { get; set; } = 0;
         public int fireHint { get; set; } = 0;
         public int frostHint { get; set; } = 0;
