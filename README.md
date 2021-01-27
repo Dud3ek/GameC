@@ -1,6 +1,6 @@
 # GameC
 
-Added multiple actions to engine of game
+My task was to add severity of actions, monsters and items to the game
 
 Engine/CharacterClasses/Player.cs
 Changed code of get/set Properties of Strength, Armor, Precision, MagicPower and Stamina
